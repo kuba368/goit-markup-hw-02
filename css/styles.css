@@ -1,0 +1,124 @@
+:root {
+    --gray_color:#757575;
+    --blue_color:#2196F3;
+    --alpha_white:rgba(255, 255, 255, 0.6);
+    --white:#FFFFFF;
+    --butt_gray:#F5F4FA;
+}
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #212121
+}
+.big_text {
+    font-weight: 900;
+    line-height: 1.36;
+    font-size: 44px;
+    text-align: center;
+}
+.section_header {
+    line-height: 1.17;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.head3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--gray_color);
+}
+.member_name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+}
+.team_role {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--gray_color);
+    text-align: center;
+}
+.product_name {
+    font-size: 18px;
+    line-height: 2;
+}
+.product_type {
+    font-size: 16px;
+    color: var(--gray_color);
+    line-height: 1.9;
+}
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--white);
+    background-color: var(--blue_color);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.filters {
+    background-color: var(--butt_gray);
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    cursor: pointer;
+}
+.filters:focus {
+    background-color: var(--blue_color);
+    color: var(--white);
+}
+.filters:hover {
+    background-color: var(--blue_color);
+    color: var(--white);
+}
+.link {
+    font-size: 16px;
+    line-height: 1.17;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+}
+.link:hover {
+    color: var(--blue_color);
+}
+.link.contacts:hover {
+    color: var(--blue_color);
+}
+.link:focus {
+    color: var(--blue_color);
+}
+.link.contacts:focus {
+    color: var(--blue_color);
+}
+.active_page {
+    color: var(--blue_color);
+}
+.link.contacts {
+    color: var(--gray_color);
+}
+.footer {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--alpha_white);
+    font-style: normal;
+}
+.footer:hover {
+    color: var(--blue_color);
+}
+.footer:focus {
+    color: var(--blue_color);
+}
+.address {
+    color: var(--white);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
