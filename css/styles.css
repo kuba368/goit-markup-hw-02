@@ -4,10 +4,22 @@
     --alpha_white:rgba(255, 255, 255, 0.6);
     --white:#FFFFFF;
     --butt_gray:#F5F4FA;
+    --studio_color:#000000;
 }
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
     color: #212121
+}
+.main_page {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    font-size: 26px;
+    color:var(--studio_color);
+    text-decoration: none;
+}
+.blue {
+    color:var(--blue_color)
 }
 .big_text {
     font-weight: 900;
